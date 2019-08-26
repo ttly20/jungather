@@ -5,10 +5,24 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy import Item, Field
 
 
-class JungatherItem(scrapy.Item):
+class JungatherItem(Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    # name = Field()
+    title = Field()
+    poster = Field()
+    status = Field()
+    alias = Field()
+    director = Field()
+    actor = Field()
+    videotype = Field()
+    area = Field()
+    language = Field()
+    length = Field()
+    update = Field()
+    released = Field()
+    plot = Field()
+    plays = Field()
+    downloads = Field()

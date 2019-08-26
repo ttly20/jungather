@@ -1,0 +1,150 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.000  000.000: --- VIM STARTING ---
+000.000  000.000: Allocated generic buffers
+007.000  007.000: locale set
+007.000  000.000: clipboard setup
+007.000  000.000: window checked
+012.000  005.000: inits 1
+038.000  026.000: parsing arguments
+040.000  002.000: expanding arguments
+067.000  027.000: shell init
+067.000  000.000: Termcap init
+067.000  000.000: inits 2
+068.000  001.000: init highlight
+091.000  017.000  017.000: sourcing C:\Vim\vim81\filetype.vim
+093.000  000.000  000.000: sourcing C:\Vim\vim81\filetype.vim
+096.000  000.000  000.000: sourcing C:\Vim\vim81\ftplugin.vim
+107.000  002.000  002.000: sourcing C:\Vim\vimfiles\colors\solarized8.vim
+121.000  002.000  002.000: sourcing C:\Vim\vim81\syntax\syncolor.vim
+124.000  000.000  000.000: sourcing C:\Vim\vim81\syntax\syncolor.vim
+126.000  010.000  008.000: sourcing C:\Vim\vimfiles\colors\solarized8.vim
+126.000  014.000  004.000: sourcing C:\Vim\vim81\syntax\synload.vim
+126.000  017.000  003.000: sourcing C:\Vim\vim81\syntax\syntax.vim
+132.000  000.000  000.000: sourcing C:\Vim\vim81\syntax/nosyntax.vim
+141.000  000.000  000.000: sourcing C:\Vim\vim81\syntax\syncolor.vim
+144.000  000.000  000.000: sourcing C:\Vim\vim81\syntax\syncolor.vim
+146.000  008.000  008.000: sourcing C:\Vim\vimfiles\colors\solarized8.vim
+146.000  010.000  002.000: sourcing C:\Vim\vim81\syntax\synload.vim
+146.000  018.000  008.000: sourcing C:\Vim\vim81\syntax\syntax.vim
+149.000  001.000  001.000: sourcing C:\Vim\vim81\filetype.vim
+151.000  000.000  000.000: sourcing C:\Vim\vim81\indent.vim
+155.000  000.000  000.000: sourcing C:\Users\My\.vim\bundle\Vundle.vim\autoload\vundle.vim
+160.000  000.000  000.000: sourcing C:\Users\My\.vim\bundle\Vundle.vim\autoload\vundle\config.vim
+166.000  095.000  040.000: sourcing $HOME\_vimrc
+166.000  003.000: sourcing vimrc file(s)
+182.000  000.000  000.000: sourcing C:\Users\My\.vim\bundle\tlib_vim\plugin\02tlib.vim
+190.000  001.000  001.000: sourcing C:\Users\My\.vim\bundle\vim-addon-mw-utils\autoload\funcref.vim
+190.000  004.000  003.000: sourcing C:\Users\My\.vim\bundle\vim-snipmate\plugin\snipMate.vim
+193.000  000.000  000.000: sourcing C:\Users\My\.vim\bundle\vim-snippets\plugin\vimsnippets.vim
+202.000  000.000  000.000: sourcing C:\Users\My\.vim\bundle\vim-easycomplete\plugin\easycomplete.vim
+205.000  000.000  000.000: sourcing C:\Users\My\.vim\bundle\vim-dictionary\plugin\dictionary.vim
+215.000  000.000  000.000: sourcing C:\Users\My\.vim\bundle\ctrlp.vim\autoload\ctrlp\mrufiles.vim
+215.000  006.000  006.000: sourcing C:\Users\My\.vim\bundle\ctrlp.vim\plugin\ctrlp.vim
+221.000  002.000  002.000: sourcing C:\Users\My\.vim\bundle\tagbar\plugin\tagbar.vim
+237.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\getscriptPlugin.vim
+240.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\gzip.vim
+243.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\logiPat.vim
+245.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\manpager.vim
+247.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\matchparen.vim
+249.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\netrwPlugin.vim
+251.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\rrhelper.vim
+253.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\spellfile.vim
+255.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\tarPlugin.vim
+257.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\tohtml.vim
+259.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\vimballPlugin.vim
+263.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\zipPlugin.vim
+263.000  081.000: loading plugins
+265.000  002.000: loading packages
+272.000  002.000  002.000: sourcing C:\Users\My\.vim\bundle\vim-snipmate\after\plugin\snipMate.vim
+272.000  005.000: loading after plugins
+272.000  000.000: inits 3
+273.000  001.000: reading viminfo
+276.000  003.000: setting raw mode
+346.000  070.000: start termcap
+351.000  005.000: clearing screen
+418.000  042.000  042.000: sourcing C:\Vim\vim81\ftplugin\python.vim
+431.000  001.000  001.000: sourcing C:\Vim\vim81\syntax\python.vim
+439.000  000.000  000.000: sourcing C:\Vim\vim81\indent\python.vim
+5920.000  5526.000: opening buffers
+5921.000  001.000: BufEnter autocommands
+5921.000  000.000: editing files in windows
+5925.000  001.000  001.000: sourcing C:\Users\My\.vim\bundle\vim-easycomplete\autoload\easycomplete.vim
+5926.000  004.000: VimEnter autocommands
+5926.000  000.000: before starting main loop
+5927.000  001.000: first screen update
+5927.000  000.000: --- VIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.000  000.000: --- VIM STARTING ---
+000.000  000.000: Allocated generic buffers
+010.000  010.000: locale set
+010.000  000.000: clipboard setup
+010.000  000.000: window checked
+015.000  005.000: inits 1
+039.000  024.000: parsing arguments
+041.000  002.000: expanding arguments
+080.000  039.000: shell init
+080.000  000.000: Termcap init
+080.000  000.000: inits 2
+081.000  001.000: init highlight
+109.000  020.000  020.000: sourcing C:\Vim\vim81\filetype.vim
+112.000  000.000  000.000: sourcing C:\Vim\vim81\filetype.vim
+116.000  001.000  001.000: sourcing C:\Vim\vim81\ftplugin.vim
+129.000  004.000  004.000: sourcing C:\Vim\vimfiles\colors\solarized8.vim
+148.000  006.000  006.000: sourcing C:\Vim\vim81\syntax\syncolor.vim
+153.000  000.000  000.000: sourcing C:\Vim\vim81\syntax\syncolor.vim
+156.000  018.000  012.000: sourcing C:\Vim\vimfiles\colors\solarized8.vim
+156.000  021.000  003.000: sourcing C:\Vim\vim81\syntax\synload.vim
+156.000  024.000  003.000: sourcing C:\Vim\vim81\syntax\syntax.vim
+163.000  000.000  000.000: sourcing C:\Vim\vim81\syntax/nosyntax.vim
+175.000  001.000  001.000: sourcing C:\Vim\vim81\syntax\syncolor.vim
+186.000  001.000  001.000: sourcing C:\Vim\vim81\syntax\syncolor.vim
+189.000  019.000  017.000: sourcing C:\Vim\vimfiles\colors\solarized8.vim
+189.000  022.000  003.000: sourcing C:\Vim\vim81\syntax\synload.vim
+189.000  029.000  007.000: sourcing C:\Vim\vim81\syntax\syntax.vim
+192.000  000.000  000.000: sourcing C:\Vim\vim81\filetype.vim
+195.000  000.000  000.000: sourcing C:\Vim\vim81\indent.vim
+202.000  001.000  001.000: sourcing C:\Users\My\.vim\bundle\Vundle.vim\autoload\vundle.vim
+207.000  000.000  000.000: sourcing C:\Users\My\.vim\bundle\Vundle.vim\autoload\vundle\config.vim
+541.000  455.000  376.000: sourcing $HOME\_vimrc
+541.000  005.000: sourcing vimrc file(s)
+588.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\getscriptPlugin.vim
+592.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\gzip.vim
+596.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\logiPat.vim
+599.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\manpager.vim
+603.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\matchparen.vim
+607.000  002.000  002.000: sourcing C:\Vim\vim81\plugin\netrwPlugin.vim
+611.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\rrhelper.vim
+613.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\spellfile.vim
+617.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\tarPlugin.vim
+620.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\tohtml.vim
+622.000  000.000  000.000: sourcing C:\Vim\vim81\plugin\vimballPlugin.vim
+625.000  001.000  001.000: sourcing C:\Vim\vim81\plugin\zipPlugin.vim
+625.000  075.000: loading plugins
+627.000  002.000: loading packages
+628.000  001.000: loading after plugins
+628.000  000.000: inits 3
+630.000  002.000: reading viminfo
+630.000  000.000: setting raw mode
+8140.000  7510.000: waiting for return
+8140.000  000.000: start termcap
+8140.000  000.000: clearing screen
+8210.000  049.000  049.000: sourcing C:\Vim\vim81\ftplugin\python.vim
+8219.000  001.000  001.000: sourcing C:\Vim\vim81\syntax\python.vim
+8225.000  001.000  001.000: sourcing C:\Vim\vim81\indent\python.vim
+8227.000  036.000: opening buffers
+8227.000  000.000: BufEnter autocommands
+8227.000  000.000: editing files in windows
+8228.000  001.000: VimEnter autocommands
+8228.000  000.000: before starting main loop
+8229.000  001.000: first screen update
+8229.000  000.000: --- VIM STARTED ---
