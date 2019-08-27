@@ -3,7 +3,7 @@ from scrapy import Spider, Request
 from jungather.items import JungatherItem
 
 class jungather(Spider):
-    name = "jungather"
+    name = "okzyw"
     allowed_domains = ["www.okzyw.com"]
     start_urls = "http://www.okzyw.com/"
     base_url = "http://www.okzyw.com{parameter}"
@@ -57,15 +57,19 @@ class jungather(Spider):
             item["area"] = videoinfo[4]
             item["language"] = videoinfo[5]
             item["released"] = videoinfo[6]
-            item["length"] = videoinfo[7]
+            item["length"] = videoinfo[7] + "分钟"
             item["update"] = videoinfo[8]
-        item["plot"] = re.findall('txt="(.*?)">', result.css(".cont") .get())
+        else:
+            return
+        item["plot"] = re.findall('txt="(.*?)">', result.css(".cont") .get())[0]
         plays = result.css("#2")
         temp = {}
         if plays is not None:
             for play in plays:
                 temp[re.findall("(.*?)\$", play.css("li::text") \
                         .get())[0]] = play.css("input::attr(value)").get()
+        else:
+            return
         item["plays"] = temp
         downloads = result.css("#down_1")
         if downloads is not None:
