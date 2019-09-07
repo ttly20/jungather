@@ -69,14 +69,16 @@ class jungather(Spider):
                 temp[re.findall("(.*?)\$", play.css("li::text") \
                         .get())[0]] = play.css("input::attr(value)").get()
         else:
+            print("没有播放地址,跳过.")
             return
         item["plays"] = temp
         downloads = result.css("#down_1")
+        d_temp = {}
         if downloads is not None:
             for download in downloads:
-                temp[re.findall("(.*?)\$", download.css("li::text") \
+                d_temp[re.findall("(.*?)\$", download.css("li::text") \
                         .get())[0]] = download.css("input::attr(value)").get()
-        item["downloads"] = temp
+        item["downloads"] = d_temp
         if item["videotype"] == "福利片" or item["videotype"] == "伦理片":
             return
         yield item
