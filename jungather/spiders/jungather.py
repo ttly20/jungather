@@ -80,6 +80,6 @@ class jungather(Spider):
                 d_temp[re.findall("(.*?)\$", download.css("li::text") \
                         .get())[0]] = download.css("input::attr(value)").get()
         item["downloads"] = d_temp
-        if item["videotype"] != "福利片" or item["videotype"] != "伦理片" \
-           item["videotype"] != "福利片 " or item["videotype"] != "伦理片 ":
+        if item["videotype"] != "福利片" or item["videotype"] != "伦理片":
+            if item["videotype"] != "福利片 " or item["videotype"] != "伦理片 ":
             yield item
