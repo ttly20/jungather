@@ -62,23 +62,23 @@ class jungather(Spider):
         else:
             return
         item["plot"] = re.findall('txt="(.*?)">', result.css(".cont") .get())[0]
-        plays = result.css("#2")
+        plays = result.css("#2 ul li")
         temp = {}
         if plays is not None:
             for play in plays:
                 temp[re.findall("(.*?)\$", play.css("li::text") \
                         .get())[0]] = play.css("input::attr(value)").get()
+            print(temp)
         else:
             print("没有播放地址,跳过.")
             return
         item["plays"] = temp
-        downloads = result.css("#down_1")
+        downloads = result.css("#down_1 ul li")
         d_temp = {}
         if downloads is not None:
             for download in downloads:
                 d_temp[re.findall("(.*?)\$", download.css("li::text") \
                         .get())[0]] = download.css("input::attr(value)").get()
         item["downloads"] = d_temp
-        if item["videotype"] == "福利片" or item["videotype"] == "伦理片":
-            return
-        yield item
+        if item["videotype"] != "*福利片*" or item["videotype"] != "*伦理片*":
+            yield item
