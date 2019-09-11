@@ -82,4 +82,4 @@ class jungather(Spider):
         item["downloads"] = d_temp
         if item["videotype"] != "福利片" or item["videotype"] != "伦理片":
             if item["videotype"] != "福利片 " or item["videotype"] != "伦理片 ":
-            yield item
+                yield item
