@@ -26,3 +26,4 @@ class JungatherItem(Item):
     plot = Field()
     plays = Field()
     downloads = Field()
+

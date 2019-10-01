@@ -16,3 +16,4 @@ class JungatherPipeline(object):
     def process_item(self, item, spider):
         self.video.update({"title": item["title"]}, {"$set": item}, True)
         return item
+
