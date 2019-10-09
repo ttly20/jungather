@@ -73,6 +73,6 @@ class YjzywSpider(Spider):
                 if re.findall('(.*?\.m3u8)', url):
                     plays[re.findall('(.*?)\$', text)[0]] = url
         self.item['plays'] = plays
-        if self.item["videotype"] != "福利片" or self.item["videotype"] != "伦理片":
-            if self.item["videotype"] != "福利片 " or self.item["videotype"] != "伦理片 ":
-                yield self.item
+        if re.findall("福利片", self.item["videotype"]) == [] and \
+                re.findall("伦理片", self.item["videotype"]) == []:
+            yield self.item

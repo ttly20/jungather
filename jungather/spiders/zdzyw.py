@@ -83,7 +83,7 @@ class ZdzywSpider(Spider):
                 d_temp[re.findall("(.*?)\$", download.css("li::text") \
                         .get())[0]] = download.css("input::attr(value)").get()
         self.item["downloads"] = d_temp
-        if self.item["videotype"] != "福利片" or self.item["videotype"] != "伦理片":
-            if self.item["videotype"] != "福利片 " or self.item["videotype"] != "伦理片 ":
-                yield self.item
+        if re.findall("福利片", self.item["videotype"]) == [] and \
+                re.findall("伦理片", self.item["videotype"]) == []:
+            yield self.item
 
